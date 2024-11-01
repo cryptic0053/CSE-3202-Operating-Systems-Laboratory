@@ -1,15 +1,11 @@
 
-cd /mnt/e # Go to desktop
-cd cryptic0053  # Go Folder
+cd /mnt/e 
+cd cryptic0053 
 
-
-mkdir -p CSE-3202  #Make directoy
-cd CSE-3202  #Go to directory
+mkdir -p CSE-3202  
+cd CSE-3202  
 mkdir -p Docs
 mkdir -p Sh
-
-
-# Make Random 10 files of txt , sh and docs
 
 for x in {1..10}
 do
@@ -23,10 +19,6 @@ do
 		touch $x.txt
 	fi
 done
-
-
-
-# Put the extension file into directory
 
 for x in {1..10}
 do
